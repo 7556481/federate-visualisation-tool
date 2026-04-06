@@ -1,5 +1,7 @@
 # User Manual
 
+This manual explains how to use the current prototype of the FEDERATE Visualisation Tool.
+
 ## 1. Who is this tool for?
 
 This tool is designed for **new developers or contributors** who need to understand the FEDERATE Building Blocks repository without deep prior context.
@@ -10,12 +12,12 @@ This tool is designed for **new developers or contributors** who need to underst
 
 ### Overview View
 
-Use Overview to get a high-level entry point into the repository structure.
+Use the Overview to get a high-level view of the repository structure.
 Click a card to move into that section.
 
 ### Tree View
 
-Use Tree to navigate exact paths.
+Use the Tree view to navigate the repository structure more precisely.
 Expand/collapse folders and select items directly.
 
 ### Detail Panel
@@ -26,12 +28,12 @@ When an item is selected, the detail panel shows basic metadata such as name, pa
 
 ## 3. Search
 
-Use the search box to find relevant folders/files.
-Results update both Overview and Tree navigation behavior.
+Use the search box to find relevant folders and files.
+Search results affect both the Overview and Tree views.
 
 Search is case-insensitive.
 
-In general, search is intended to match meaningful item names and related labels where available.
+In general, the search function is intended to match meaningful item names and related labels where available.
 
 ---
 
@@ -44,5 +46,5 @@ From the detail panel, use the GitHub action to open the selected location in th
 ## 5. Notes (Prototype Status)
 
 - This is a prototype and behavior may evolve.
-- Some metadata can be incomplete.
+- Some metadata may be incomplete.
 - Upstream text quality and availability may affect displayed labels/descriptions.

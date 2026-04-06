@@ -1,6 +1,6 @@
 # FEDERATE Visualisation Tool
 
-This project is a prototype visualization tool for exploring the [CSA-FEDERATE/Proposed-BuildingBlocks](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks) repository as part of the FEDERATE project.
+This project is a prototype visualization tool for exploring the [CSA-FEDERATE/Proposed-BuildingBlocks](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks) repository within the FEDERATE project.
 It provides an overview-based entry point, a tree view for repository navigation, and a detail panel for selected items.
 The goal is to make the repository easier to understand, especially for new developers without prior background knowledge.
 
@@ -10,13 +10,13 @@ The goal is to make the repository easier to understand, especially for new deve
 
 ## 1. Project Overview
 
-FEDERATE Building Blocks are organized in a deep directory hierarchy. This tool presents that hierarchy in a more approachable interface so contributors can quickly understand structure and context.
+FEDERATE Building Blocks are organized in a deep directory hierarchy. This tool presents that hierarchy through a more approachable interface so that contributors can understand the structure and context more quickly.
 
 ---
 
 ## 2. Purpose
 
-The repository can be difficult to read directly, especially for newcomers. This explorer exists to:
+The repository can be difficult to navigate and understand directly, especially for newcomers. This explorer exists to:
 
 - lower the entry barrier for new contributors
 - provide faster navigation across folders and files
@@ -30,7 +30,7 @@ The repository can be difficult to read directly, especially for newcomers. This
 - **Tree view** for path-based navigation.
 - **Detail panel** for selected item information.
 - **Search support** for locating matching nodes.
-- **GitHub link-out** from selected items.
+- **Direct links** from selected items to GitHub.
 
 > For step-by-step usage instructions, see the user manual: [`docs/manual.md`](docs/manual.md).
 > For Vite/template-level maintenance notes, see [`docs/dev-notes.md`](docs/dev-notes.md).
@@ -67,7 +67,7 @@ npm run preview
 
 ## 7. Data Source
 
-The explorer currently uses a JSON representation of the Building Blocks repository structure as its main data source.
+The explorer currently uses a JSON representation of the Building Blocks repository structure as its primary data source.
 
 - Main input file: `src/assets/building-blocks_structure.json`
 - JSON generation is supported through CI helper scripts in `ci/`
@@ -94,19 +94,3 @@ docs/
 ```
 
 ---
-
-## 9. Known Limitations
-
-- This is currently a prototype.
-- Some metadata may be incomplete depending on upstream content.
-- Human-readable labels and descriptions depend on available upstream text.
-- The current implementation focuses on repository exploration rather than full semantic analysis.
-
----
-
-## 10. Future Improvements
-
-- Better grouping and categorization.
-- Improved README rendering in the detail panel.
-- Better navigation and interaction UX.
-- More robust CI/data generation workflow.
