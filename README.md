@@ -79,7 +79,7 @@ bash ci/transform.sh /path/to/Proposed-BuildingBlocks building-blocks_structure.
 
 ---
 
-## 8. Project Structure (Simplified)
+## 8. Project Structure 
 
 ```text
 src/
