@@ -20,7 +20,7 @@ Expand/collapse folders and select items directly.
 
 ### Detail Panel
 
-When an item is selected, the detail panel shows basic metadata (name, path, type) and quick actions.
+When an item is selected, the detail panel shows basic metadata such as name, path, and type, and provides quick actions such as opening the item on GitHub.
 
 ---
 
@@ -28,6 +28,8 @@ When an item is selected, the detail panel shows basic metadata (name, path, typ
 
 Use the search box to find relevant folders/files.
 Results update both Overview and Tree navigation behavior.
+
+Search is case-insensitive.
 
 In general, search is intended to match meaningful item names and related labels where available.
 
