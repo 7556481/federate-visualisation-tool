@@ -1,6 +1,6 @@
 # FEDERATE Visualisation Tool
 
-This project is a prototype visualization tool for exploring the [CSA-FEDERATE/Proposed-BuildingBlocks](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks) repository within the FEDERATE project.
+This project is a prototype visualization tool for exploring the [CSA-FEDERATE/Proposed-BuildingBlocks](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks) repository as part of the FEDERATE project.
 It provides an overview-based entry point, a tree view for repository navigation, and a detail panel for selected items.
 The goal is to make the repository easier to understand, especially for new developers without prior background knowledge.
 
@@ -16,7 +16,7 @@ FEDERATE Building Blocks are organized in a deep directory hierarchy. This tool 
 
 ## 2. Purpose
 
-The repository can be difficult to navigate and understand directly, especially for newcomers. This explorer exists to:
+The repository can be difficult to read directly, especially for newcomers. This explorer exists to:
 
 - lower the entry barrier for new contributors
 - provide faster navigation across folders and files
@@ -30,9 +30,10 @@ The repository can be difficult to navigate and understand directly, especially 
 - **Tree view** for path-based navigation.
 - **Detail panel** for selected item information.
 - **Search support** for locating matching nodes.
-- **GitHub links** from selected items to GitHub.
+- **GitHub link-out** from selected items.
 
 > For step-by-step usage instructions, see the user manual: [`docs/manual.md`](docs/manual.md).
+> For Vite/template-level maintenance notes, see [`docs/dev-notes.md`](docs/dev-notes.md).
 
 ---
 
@@ -66,7 +67,7 @@ npm run preview
 
 ## 7. Data Source
 
-The explorer currently uses a JSON representation of the Building Blocks repository structure as its primary data source.
+The explorer currently uses a JSON representation of the Building Blocks repository structure as its main data source.
 
 - Main input file: `src/assets/building-blocks_structure.json`
 - JSON generation is supported through CI helper scripts in `ci/`
